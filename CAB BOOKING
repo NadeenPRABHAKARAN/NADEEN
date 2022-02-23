@@ -1,0 +1,17 @@
+ca=["auto","car","bike"]
+print("avail modes:",ca)
+cab=input("enter mode of transport:")
+area=["omr","ecr","adyar","guindy"]
+ar=input("enter pickup point:")
+ea=input("enter destination")
+print("amount will be Rs:14 per km")
+if((ar==area[0])and(ea==area[1])):
+   print("cost will be Rs:216")
+elif((ar==area[1])and(ea==area[2])):
+     print("cost will be Rs:180")
+else:
+         print("enter the place,service is not avail")
+py=[1]
+pay=input("enter payment and click,")
+if(pay==py[0]):
+         print("journey is confirmed")
